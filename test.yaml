@@ -1,6 +1,5 @@
 ---
 - hosts: localhost
-  become: true
   tasks:
   - name: List all file systems
     command: df -h
